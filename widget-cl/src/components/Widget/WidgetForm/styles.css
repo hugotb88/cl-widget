@@ -1,0 +1,152 @@
+.wclForm {
+    background-color: rgb(0, 116, 161);
+    color: white;
+    width: 30%;
+    left: 41%;
+    right: 41%;
+    position: fixed;
+    bottom: 3px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 40px -12px rgb(155, 155, 155);
+    text-align: initial;
+    z-index: 100;
+}
+
+.wclForm .formTitle {
+    font-size: large;
+}
+
+.wclForm button {
+    border-style: none;
+}
+
+.wclForm .wclLabel {
+    color: white;
+}
+
+
+/*Mobile Portrait and Landscape*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+    .wclForm {
+        background-color: rgb(0, 116, 161);
+        width: 60%;
+        transform: translateX(-50%);
+        left: 50%;
+        font-size: small;
+        padding: 15px;
+    }
+
+    .wclForm .formTitle {
+        font-size: small;
+    }
+
+    .wclForm input {
+        font-size: x-small;
+        padding: 2px;
+    }
+
+    .wclForm button {
+        border-style: none;
+        padding: 3px;
+        font-size: medium;
+    }
+
+}
+
+/*Mobile Portrait and Landscape*/
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 768px) {
+    .wclForm {
+        background-color: rgb(0, 116, 161);
+        width: 60%;
+        transform: translateX(-50%);
+        left: 50%;
+        font-size: small;
+        padding: 15px;
+    }
+
+    .wclForm .formTitle {
+        font-size: small;
+    }
+
+    .wclForm input {
+        font-size: x-small;
+        padding: 2px;
+    }
+
+    .wclForm button {
+        border-style: none;
+        padding: 3px;
+        font-size: medium;
+    }
+
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .wclForm {
+        background-color: rgb(0, 116, 161);
+        width: 50%;
+        /* height: 50%; */
+        transform: translateX(-50%);
+        left: 50%;
+        font-size: medium;
+        padding: 15px;
+    }
+
+    .wclForm .formTitle {
+        font-size: large;
+    }
+
+    .wclForm input {
+        font-size: medium;
+        padding: 2px;
+    }
+
+    .wclForm button {
+        border-style: none;
+        padding: 3px;
+        font-size: medium;
+    }
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1920px) {
+
+    .wclForm {
+        background-color: rgb(0, 116, 161);
+        width: 30%;
+        transform: translateX(-50%);
+        left: 50%;
+        font-size: medium;
+        padding: 15px;
+    }
+
+    .wclForm .formTitle {
+        font-size: large;
+    }
+
+    .wclForm input {
+        font-size: medium;
+        padding: 2px;
+    }
+
+    .wclForm button {
+        border-style: none;
+        padding: 3px;
+        font-size: medium;
+    }
+    
+
+}
